@@ -50,3 +50,29 @@ This project involves clustering and recommending courses based on their descrip
    ```bash
    git clone https://github.com/yourusername/course-catalog-clustering.git
    cd course-catalog-clustering
+2. Data
+Ensure you have the course-catalog.csv file in the project directory. This file should contain the course data with columns including Subject, Name, and Description.
+Usage
+Run the Jupyter Notebook or Python script to execute the clustering and visualization tasks:
+
+
+jupyter notebook course_catalog_clustering.ipynb 
+Use the find_best_course function to get course recommendations based on user input.
+
+Example
+python
+Copy code
+query = "Introduction to Data Science"
+recommended_courses = find_best_course(data, query)
+print(recommended_courses)
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Sentence-BERT
+Yellowbrick
+PyClustering
+Plotly
+Texthero
+NMSLIB
+For any questions or issues, please contact arunarumugam1212@gmail.com
