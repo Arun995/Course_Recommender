@@ -60,15 +60,14 @@ jupyter notebook course_catalog_clustering.ipynb
 Use the find_best_course function to get course recommendations based on user input.
 
 Example
-python
-Copy code
 query = "Introduction to Data Science"
 recommended_courses = find_best_course(data, query)
 print(recommended_courses)
-License
+
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+'Acknowledgments'
 Sentence-BERT
 Yellowbrick
 PyClustering
